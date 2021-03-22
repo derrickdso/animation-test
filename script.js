@@ -55,13 +55,13 @@ function loopAnim() {
         ease: 'power4',
         stagger: 0.05
     }, 1.3)
-    .from('.band:nth-of-type(5) .name--blue .bandChar', {
+    .from('.band:nth-of-type(7) .name--blue .bandChar', {
         y: -120,
         duration: 2,
         ease: 'power4.inOut',
         stagger: -0.05
     }, 0)
-    .to('.band:nth-of-type(6) .name--blue .bandChar', {
+    .to('.band:nth-of-type(8) .name--blue .bandChar', {
         y: 120,
         duration: 2,
         ease: 'power4.inOut',

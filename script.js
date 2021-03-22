@@ -25,7 +25,7 @@ function intro() {
         stagger: 0.15    
     })
     .from('p span', {
-        y: 70,
+        y: 270,
         stagger: 0.1
     }, 2)
     
@@ -39,7 +39,7 @@ function loopAnim() {
     });
     
     tl.to('.names', {
-        y: -102,
+        y: -28,
         duration: 5,
         ease: 'none'
     })
@@ -73,7 +73,7 @@ function loopAnim() {
 
 function init() {
     gsap.set(stage, { autoAlpha: 1 });
-    gsap.set('.word', { rotate: -25 });
+    gsap.set('.word', { rotate: 0 });
     stage.onclick = () => {
         gltl.restart();
     }

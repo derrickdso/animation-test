@@ -29,7 +29,7 @@ body {
   position: relative;
   min-width: 716px;
   width: 716px;
-  height: 1008px;
+  height: auto;
   background: #DBE0CF;
   cursor: pointer;
   overflow: hidden;
@@ -39,7 +39,7 @@ body {
 .word {
   position: absolute;
   top: -150px;
-  left: 34px;
+  left: 53%;
   width: 120%;
   height: 120%;
 }
@@ -47,10 +47,10 @@ body {
 .band {
   position: relative;
   margin: 0;
-  height: 102px;
+  height: 40px;
   font-weight: 600;
-  color: #d71111;
-  font-size: 135px;
+  color: #8C6192;
+  font-size: 40px;
   letter-spacing: 0px;
   line-height: 0.8;
 }
@@ -72,7 +72,7 @@ body {
 }
 
 .name--blue {
-  color: #019ac5;
+  color: #7B241D;
   position: absolute;
   top: 8px;
 }
@@ -81,25 +81,29 @@ p {
   position: absolute;
   bottom: 24px;
   margin: 0;
-  color: #d71111;
+  color: #7B241D;
   font-size: 17px;
   letter-spacing: 0px;
   line-height: 1.3;
   text-align: right;
+  text-shadow: #111 1px;
 }
 p span {
   display: block;
 }
 
 .date {
-  left: 25px;
+  left: 375px;
   text-align: left;
+  bottom: 50px;
 }
 
 .location {
-  left: 332px;
+  left: 375px;
+  bottom: 120px;
+  text-align: left;
 }
 
-.guests {
-  left: 566px;
+.hen {
+  width: 100%;
 }
